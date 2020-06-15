@@ -3,4 +3,4 @@
 
 1. Отрендеренный отчет pi_calculation.html можно посмотреть здесь: https://rpubs.com/KostasSpirliev/627938;
 2. Полностью воспроизводимый код отчета содержится в pi_calculation.Rmd;
-3. Основные функции для решения задачи содержатся в pi_calculation_functions.R;
+3. Основные функции для решения задачи содержатся в pi_calc_functions.R;
