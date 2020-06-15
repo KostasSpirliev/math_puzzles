@@ -1,4 +1,4 @@
-# график
+# РіСЂР°С„РёРє
 plot_calc_pi <- function(n) {
     x <- runif(n, min = -1, max = 1)
     y <- runif(n, min = -1, max = 1)
@@ -26,7 +26,7 @@ plot_calc_pi <- function(n) {
               plot.title = element_text(hjust = 0.5))
 }
 
-#просто подсчет
+# РџСЂРѕСЃС‚Рѕ РїРѕРґСЃС‡РµС‚
 calc_pi <- function(n) {
     x <- runif(n, min = -1, max = 1)
     y <- runif(n, min = -1, max = 1)
@@ -35,12 +35,12 @@ calc_pi <- function(n) {
     4*sum(a)/length(a)
 }
 
-# распределение
+# Р Р°СЃРїСЂРµРґРµР»РµРЅРёРµ
 x <- numeric(1000)
 for(i in 1:length(x)) {
     x[i] <- calc_pi(10000)
 }
 hist(x, 
-     xlab = paste0("Значения числа Пи (среднее значение = ", mean(x), ")"), 
-     main = "Распределение значения Пи")
+     xlab = paste0("Р—РЅР°С‡РµРЅРёСЏ С‡РёСЃР»Р° РџРё (СЃСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ = ", mean(x), ")"), 
+     main = "Р Р°СЃРїСЂРµРґРµР»РµРЅРёРµ Р·РЅР°С‡РµРЅРёСЏ РџРё")
 abline(v = mean(x), col = "red")
