@@ -1,3 +1,5 @@
+library(ggplot2)
+
 # график
 plot_calc_pi <- function(n) {
     x <- runif(n, min = -1, max = 1)
